@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Parcial De Etica</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('resources/background2.png');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.button{
+  margin-left: 10px;
+  margin-right: 10px;
+  background: none;
+  border: none;
+  color: white;
+}
+.button:hover{
+  background-color: rgba(255, 255, 255, 0.171);
+  border-radius: 25px;
+}
+.bgcolor{
+  background-color: rgba(0, 0, 0, 0.438);
+}
+.bgcolor-item{
+  color: white;
+}
+</style>
+</head>
+<body>
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left bgcolor" style="display:none;z-index:2;width:20%;min-width:200px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button bgcolor-item">Cerrar Menu</a>
+  <a href="views/solucion.html" class="w3-bar-item w3-button bgcolor-item">Soucion</a>
+</nav>
+
+<!-- Top menu -->
+  
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-topleft w3-padding-large w3-xlarge">
+    <button class="button w3-padding-16 w3-left" onclick="w3_open()">☰ Menu De Contenido</button>
+  </div>
+  
+  <div class="w3-display-middle">
+    <h1 class="w3-jumbo w3-animate-top">OBJETIVO:</h1>
+    <h5 class="w3-animate-top">Identificar el código ético éticos y morales del ingeniero de sistemas de tal
+      manera que se incorpore en su relación profesional y personal en diferentes etapas
+      de la vida llevandonos a la reflexión de nuestros actos insentivando una convivencia
+      sana con nuestros semejantes y todo ser vivo.</h5>
+    <hr class="w3-border-grey w3-animate-top" style="margin:auto;width:40%">
+    <p class="w3-large w3-center w3-animate-top"><i>Edwin Diaz - Jose Bertel</i></p>
+  </div>
+  <div class="w3-display-bottomleft w3-padding-large">
+    Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
+  </div>
+</div>
+
+<script>
+  // Script to open and close sidebar
+  function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+  }
+   
+  function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+  }
+  </script>
+</body>
+</html>

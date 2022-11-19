@@ -1,0 +1,10 @@
+.JB_Container{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar{
+    margin-bottom: 15px;
+}
+.JB_Margin{
+    margin: 5px;
+}
